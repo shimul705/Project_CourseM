@@ -1,0 +1,96 @@
+/* CSS styles for payment page content */
+
+.payment-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .payment-content h1 {
+    font-size: 24px;
+    color: #fff;
+    background-color: purple;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .payment-content p {
+    margin: 10px 0;
+    padding: 8px;
+    background-color: skyblue;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .payment-info {
+    margin-top: 50px;
+  }
+  
+  .payment-info h2 {
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .payment-info p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .payment-info form {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .payment-info .inputBox {
+    margin-bottom: 20px;
+  }
+  
+  .payment-info label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .payment-info input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: none;
+    transition: border-color 0.2s linear;
+  }
+  
+  .payment-info input[type="text"]:focus {
+    border-color: #000;
+  }
+  
+  .payment-info .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background 0.2s linear;
+  }
+  
+  .payment-info .submit-btn:hover {
+    background: #dc24ec;
+  }
+  
+  .payment-info .success-msg {
+    font-size: 16px;
+    color: #27ae60;
+    text-align: center;
+    display: none;
+    margin-top: 10px;
+  }
+  
+  
